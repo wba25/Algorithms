@@ -15,8 +15,8 @@ void insertionsort(int* arr, int size){
 
 int main(){
 	int arr[20] = {5,2,4,6,1,3}, size = 6, i;
-	for(i = 0; i<size; printf("%d",arr[i++]));	
+	for(i = 0; i<size; printf("%d ",arr[i++]));	
 	puts("\n");
 	insertionsort(arr,size);
-	for(i = 0; i<size; printf("%d",arr[i++]));	
+	for(i = 0; i<size; printf("%d ",arr[i++]));	
 }
