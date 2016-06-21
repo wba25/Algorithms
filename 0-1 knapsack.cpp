@@ -46,6 +46,7 @@ int main(){
 	scanf("%d%d",&k,&n);
 	wt = new int[n];
 	val = new int[n];
-	cout << "Valor maximo: " << knapsack(k,n,wt,val) << endl;
+	for(int i=0; i < n; i++) scanf("%d%d",&wt[i],&val[i]);
+	cout << "Valor maximo: " << knapsack(k,n,wt,val);
 	return 0;
 }
